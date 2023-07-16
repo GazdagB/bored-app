@@ -1,0 +1,13 @@
+Problems to solve!  ✓
+1. We have to create the basic structure of the app.
+ - This incluedes the basic HTML structure, the CSS and the JS files. ✓
+ - Make the Component for the Activities. ✓
+
+2.Install all of the dependencies:  ✓
+    - Axios ✓
+    - React Router ✓
+    - Fontawesome ✓
+
+3. Fetch the data from the API. 
+    - First make a basic fetch to see if we can get the data. ✓
+    - Styele the component.  

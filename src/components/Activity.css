@@ -1,0 +1,86 @@
+.activity-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.activity__data{
+    height: 400px;
+    width: 500px;
+    background-color: #efefee;
+    color: #282c34;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    border-radius: 10px;
+    margin: 25px 0;
+    padding: 20px;
+}
+
+.activity-container button{
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: 2px solid #efefee;
+    color: #efefee;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #282c34;
+    cursor: pointer;
+}
+
+.activity-container button:hover{
+    background-color: #efefef;
+    color: #282c34;
+    border: 2px solid none
+}
+
+.activity-container .website__link:hover{
+    background-color: #f5cc00;
+    color: #282c34;
+    border: 2px solid none
+}
+
+
+.faLightBulb{
+    margin-right: 5px;
+    /* Need some yellow color that matches a lightbulbs color */
+    /* A little bit more */
+    color: #f5cc00;
+}
+
+.faQuestion{
+    font-size: 10rem;
+  
+}
+
+.faEarthEurope{
+    margin-right: 5px;
+}
+
+.margin-right-5{
+    margin-right: 5px;
+}
+
+.margin-left-5{
+    margin-left: 5px;
+}
+
+div.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #7f848f;
+}
+
+.part_icon_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.part_icon_container div{
+    margin-left: 5px;
+}

@@ -119,9 +119,9 @@ const Activity = () => {
             return (
                 <div className='activity__data'>
                     <div className="info">
-                        <p>{addTypeIcon(activity)}{activity.type}</p>
+                        <p className='type'>{addTypeIcon(activity)}{activity.type}</p>
                         <p className='part_icon_container' >{activity.participants}{addParticipantsIcon(activity)}</p>
-                        <p>{addPrice(activity)}</p>
+                        <p className='price'>{addPrice(activity)}</p>
                     </div>
                     <h2>{activity.activity}</h2>
                     <p>{(activity.link) ? <button className='website__link' onClick={openWebsite} ><FontAwesomeIcon className='faEarthEurope' icon={faEarthEurope} /> Website</button> : "" }</p>
@@ -131,7 +131,7 @@ const Activity = () => {
             return (
                 <div className='activity__data'>
                     <h2><FontAwesomeIcon className='icon faQuestion' icon={faQuestion} /></h2>
-                    <h2>What to do?</h2>
+                    <h2 className='what-to-do'>What to do?</h2>
                 </div>
             )
         }
@@ -144,7 +144,7 @@ const Activity = () => {
             {showActivity(activity)}
         </div>
 
-        <button onClick={getActivity}> <FontAwesomeIcon className='icon faLightBulb' icon={faLightbulb} /> Get an Idea</button>
+        <button className='get-idea btn' onClick={getActivity}> <FontAwesomeIcon className='icon faLightBulb' icon={faLightbulb} /> Get an Idea</button>
     </div>
   )
 }

@@ -11,3 +11,70 @@
   color: white;
 
 }
+
+a.buyme{
+  background: #fff;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 50px;
+  margin: 20px;
+  transition: 0.3s ease-in-out;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #282c34;
+  font-weight: bold;
+  font-size: 20px;
+  z-index: 1;
+
+
+}
+
+a.buyme img{
+  width: 100px;
+  height: 100px;
+  top: 0;
+  right: 0;
+  border: 0;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+  transition-duration: 0.3s;
+  
+
+
+  
+}
+
+.link-hovered img{
+  width: 350px;
+  margin: 10px 0 0 0;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  transition: left ease-in-out ;
+  transition-duration: 0.3s;
+  transition-delay: 0.5s;
+  transition-property: left;
+ 
+
+}
+
+.link-hovered{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50px;
+  width: 350px;
+  transition: 0.3s ease-in-out;
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
+}
+

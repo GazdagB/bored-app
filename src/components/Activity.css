@@ -37,6 +37,10 @@
     border: 2px solid none
 }
 
+.activity-container button:active{
+    transform: scale(0.95);
+}
+
 .activity-container .website__link:hover{
     background-color: #f5cc00;
     color: #282c34;

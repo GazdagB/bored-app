@@ -20,19 +20,8 @@ a.buyme{
   bottom: 0;
   right: 0;
   border-radius: 50px;
-  margin: 20px;
+  margin: 50px;
   transition: 0.3s ease-in-out;
-  transition-duration: 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: #282c34;
-  font-weight: bold;
-  font-size: 20px;
-  z-index: 1;
-
-
 }
 
 a.buyme img{
@@ -42,39 +31,29 @@ a.buyme img{
   right: 0;
   border: 0;
   border-radius: 50px;
-  transition: 0.3s ease-in-out;
-  transition-duration: 0.3s;
-  
+  opacity: 100%;
 
-
-  
 }
 
-.link-hovered img{
-  width: 350px;
+a.link-hovered img{
+  width: 100%;
+  height: 90%;
   margin: 10px 0 0 0;
   border-radius: 50px;
   align-items: center;
   justify-content: center;
-  transition: left ease-in-out ;
-  transition-duration: 0.3s;
-  transition-delay: 0.5s;
-  transition-property: left;
- 
-
+  
 }
 
-.link-hovered{
+a.link-hovered{
   position: fixed;
   bottom: 0;
   right: 0;
-  margin: 20px;
+  margin: 50px;
   height: 100px;
   background: #fff;
   border-radius: 50px;
   width: 350px;
   transition: 0.3s ease-in-out;
-  transition-duration: 0.3s;
-  transition-delay: 0.1s;
 }
 
